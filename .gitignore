@@ -1,0 +1,21 @@
+# Laravel (backend)
+/vendor/
+/node_modules/
+.env
+.env.*.backup
+/public/storage
+/storage/*.key
+/storage/*.log
+/storage/framework/cache/*
+/storage/framework/views/*
+/storage/logs/*
+
+# React/Next (frontend)
+.next/
+.yarn/
+.pnp/
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
