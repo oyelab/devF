@@ -34,7 +34,7 @@ const Hero = () => {
             <div className="hero-content rmb-55 wow fadeInUp delay-0-2s">
               <span className="h2">Hello, I’m</span>
               <h1>
-                <b>{heroData.name || "Loading..."}</b>
+                <b>{heroData.title || "Loading..."}</b>
               </h1>
               <p>{heroData.description || "Fetching data..."}</p>
               <div className="hero-btns">
@@ -64,7 +64,7 @@ const Hero = () => {
           <div className="col-lg-5">
             <div className="author-image-part wow fadeIn delay-0-3s">
               <div className="bg-circle" />
-              <img src="assets/images/hero/me.png" alt="Author" />
+			  <img src={heroData.image_url} alt={heroData.title} />
               <div className="progress-shape">
                 <img
                   src="assets/images/hero/progress-shape.png"

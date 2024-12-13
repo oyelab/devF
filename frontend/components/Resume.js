@@ -29,9 +29,9 @@ const Resume = () => {
                       <i className="far fa-arrow-right" />
                     </div>
                     <div className="content">
-                      <span className="years">2021 - Present</span>
-                      <h4>Lead Product Designer</h4>
-                      <span className="company">Google</span>
+                      <span className="years">2021 - 2024</span>
+                      <h4>Lead Developer</h4>
+                      <span className="company">Ezze Technology Limited</span>
                     </div>
                   </div>
                 </div>
@@ -41,33 +41,9 @@ const Resume = () => {
                       <i className="far fa-arrow-right" />
                     </div>
                     <div className="content">
-                      <span className="years">2016 - 2018</span>
-                      <h4>Junior UX/UI Designer</h4>
-                      <span className="company">LinkedIn</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-xl-5 col-md-6">
-                  <div className="resume-item wow fadeInUp delay-0-2s">
-                    <div className="icon">
-                      <i className="far fa-arrow-right" />
-                    </div>
-                    <div className="content">
-                      <span className="years">2018 - 2021</span>
-                      <h4>Senior Product Designer</h4>
-                      <span className="company">Webflow</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-xl-5 col-md-6">
-                  <div className="resume-item wow fadeInUp delay-0-4s">
-                    <div className="icon">
-                      <i className="far fa-arrow-right" />
-                    </div>
-                    <div className="content">
-                      <span className="years">2014 - 2016</span>
-                      <h4>Graphics Designer</h4>
-                      <span className="company">Apple</span>
+                      <span className="years">2017 - 2021</span>
+                      <h4>Web Developer</h4>
+                      <span className="company">Dhakalive.tv</span>
                     </div>
                   </div>
                 </div>

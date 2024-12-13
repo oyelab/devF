@@ -32,7 +32,7 @@ const Footer1 = () => {
                 <div className="footer-logo">
                   <Link legacyBehavior href="/">
                     <a>
-                      <img src="assets/images/logos/logo.png" alt="Logo" />
+                      <img src="assets/images/logos/logo.svg" alt="Logo" />
                     </a>
                   </Link>
                 </div>
@@ -91,16 +91,15 @@ const Footer1 = () => {
                 <h6 className="footer-title">Address</h6>
                 <ul>
                   <li>
-                    <i className="far fa-map-marker-alt" /> 55 Main Street, 2nd
-                    block, New York City
+                    <i className="far fa-map-marker-alt" />Dhaka, Bangladesh
                   </li>
                   <li>
                     <i className="far fa-envelope" />{" "}
-                    <a href="mailto:support@gmail.com">support@gmail.com</a>
+                    <a href="mailto:me@faisal.one">me@faisal.one</a>
                   </li>
                   <li>
                     <i className="far fa-phone" />{" "}
-                    <a href="callto:+880(123)45688">+880 (123) 456 88</a>
+                    <a href="callto:+880(1710)541719">+880-1710-541719</a>
                   </li>
                 </ul>
               </div>
@@ -116,7 +115,7 @@ const Footer1 = () => {
                 <p>
                   Copyright @{date},{" "}
                   <Link legacyBehavior href="/">
-                    Noxfolio
+                    devF
                   </Link>{" "}
                   All Rights Reserved
                 </p>
@@ -175,7 +174,7 @@ export const Footer2 = () => {
               <div className="footer-logo">
                 <Link legacyBehavior href="/">
                   <a>
-                    <img src="assets/images/logos/logo.png" alt="Logo" />
+                    <img src="assets/images/logos/logo.svg" alt="Logo" />
                   </a>
                 </Link>
               </div>
@@ -261,7 +260,7 @@ export const Footer2 = () => {
             <p>
               Copyright @{date},{" "}
               <Link legacyBehavior href="/">
-                Noxfolio
+                devF
               </Link>{" "}
               All Rights Reserved
             </p>

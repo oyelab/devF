@@ -1,54 +1,78 @@
 import Link from "next/link";
 
 const items = [
-  {
-    id: 1,
-    name: "Figma",
-    image: "assets/images/skills/skill1.png",
-    value: "95",
-  },
-  {
-    id: 2,
-    name: "Framer",
-    image: "assets/images/skills/skill2.png",
-    value: "83",
-  },
-  {
-    id: 3,
-    name: "Photoshop",
-    image: "assets/images/skills/skill3.png",
-    value: "93",
-  },
-  {
-    id: 4,
-    name: "Wordpress",
-    image: "assets/images/skills/skill4.png",
-    value: "84",
-  },
-  {
-    id: 5,
-    name: "Angular",
-    image: "assets/images/skills/skill5.png",
-    value: "65",
-  },
-  {
-    id: 6,
-    name: "Webflow",
-    image: "assets/images/skills/skill6.png",
-    value: "86",
-  },
-  {
-    id: 7,
-    name: "Python",
-    image: "assets/images/skills/skill7.png",
-    value: "62",
-  },
-  {
-    id: 8,
-    name: "Sketch",
-    image: "assets/images/skills/skill8.png",
-    value: "94",
-  },
+{
+	id: 1,
+	name: "PHP",
+	image: "https://www.php.net/images/logos/new-php-logo.svg",
+	value: "90"
+	},
+	{
+	id: 2,
+	name: "Laravel",
+	image: "https://laravel.com/img/logomark.min.svg",
+	value: "95"
+	},
+	{
+	id: 3,
+	name: "Server",
+	image: "https://nginx.org/img/nginx_logo_dark.png",
+	value: "85"
+	},
+	{
+	id: 4,
+	name: "WordPress",
+	image: "https://s.w.org/style/images/about/WordPress-logotype-wmark-white.png",
+	value: "85"
+	},
+	{
+	id: 5,
+	name: "Git",
+	image: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.svg",
+	value: "85"
+	},
+	{
+	id: 6,
+	name: "HTML",
+	image: "https://www.w3.org/html/logo/downloads/HTML5_Badge.svg",
+	value: "100"
+	},
+	{
+	id: 7,
+	name: "Bootstrap",
+	image: "https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg",
+	value: "85"
+	},
+	{
+	id: 8,
+	name: "JS",
+	image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+	value: "85"
+	},
+	{
+	id: 9,
+	name: "NextJS",
+	image: "assets/images/skills/nextjs.svg",
+	value: "75"
+	},
+	{
+	id: 10,
+	name: "ReactJS",
+	image: "https://react.dev/images/brand/logo_light.svg",
+	value: "75"
+	},
+	{
+	id: 11,
+	name: "Database",
+	image: "https://www.mysql.com/common/logos/logo-mysql-170x115.png",
+	value: "85"
+	},
+	{
+	id: 12,
+	name: "Node.js",
+	image: "https://nodejs.org/static/images/logo.svg",
+	value: "70"
+	},
 ];
 
 const Skill = () => {
@@ -65,9 +89,7 @@ const Skill = () => {
                     Let’s Explore Popular <span>Skills &amp; Experience</span>
                   </h2>
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus to voluptatem
-                    accusantium doloremque laudantium, totam rem aperiamc eaque
-                    ipsa quae ab illo inventore veritatis
+					Expert in PHP Laravel, Next.js, Vue, and React, delivering scalable solutions for eCommerce, dashboards, server setups, and performance optimization. Let’s build something exceptional together!
                   </p>
                 </div>
                 <Link legacyBehavior href="/about">
@@ -78,20 +100,25 @@ const Skill = () => {
               </div>
             </div>
             <div className="col-lg-7">
-              <div className="skill-items-wrap">
-                <div className="row">
-                  {items.map((item) => (
-                    <div className="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
-                      <div className="skill-item wow fadeInUp delay-0-2s">
-                        <img src={item.image} alt="Skill" />
-                        <h5>{item.name}</h5>
-                        <span className="percent">{item.value}%</span>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
+				<div className="skill-items-wrap">
+					<div className="row">
+					{items.map((item) => (
+						<div className="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
+							<div className="skill-item wow fadeInUp delay-0-2s">
+								<img 
+								src={item.image} 
+								alt="Skill" 
+								className="img-fluid fixed-size"  // Added class for fixed size
+								/>
+								<h5>{item.name}</h5>
+								<span className="percent">{item.value}%</span>
+							</div>
+						</div>
+					))}
+					</div>
+				</div>
+			</div>
+
           </div>
         </div>
       </div>

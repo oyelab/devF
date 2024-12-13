@@ -2,36 +2,36 @@ import Link from "next/link";
 
 const Services = ({ extraClass }) => {
   const services = [
-    {
-      id: 1,
-      title: "Brand Identity Design",
-      text: "Dignissimos ducimus blanditiis praesen",
-    },
-    {
-      id: 2,
-      title: "Website Design",
-      text: "Dignissimos ducimus blanditiis praesen",
-    },
-    {
-      id: 3,
-      title: "Mobile Application Design",
-      text: "Dignissimos ducimus blanditiis praesen",
-    },
-    {
-      id: 4,
-      title: "Motion Graphics Design",
-      text: "Dignissimos ducimus blanditiis praesen",
-    },
-    {
-      id: 5,
-      title: "Website Development",
-      text: "Dignissimos ducimus blanditiis praesen",
-    },
-    {
-      id: 6,
-      title: "SEO & Digital Marketing",
-      text: "Dignissimos ducimus blanditiis praesen",
-    },
+	{
+		id: 1,
+		title: 'eCommerce Solutions',
+		text: 'Building fully functional eCommerce platforms with features like secure payment gateways, inventory management, and dynamic product galleries to deliver seamless shopping experiences.',
+	},
+	{
+		id: 2,
+		title: 'News and Blogging Platforms',
+		text: 'Creating user-friendly and SEO-optimized platforms for news and blogging, with advanced content management systems, social media integrations, and responsive designs for all devices.',
+	},
+	{
+		id: 3,
+		title: 'Customized Dashboard Development',
+		text: 'Designing interactive and feature-rich dashboards tailored for project management, analytics, and operational workflows to streamline business processes.',
+	},
+	{
+		id: 4,
+		title: 'Image Processing & Performance Optimization',
+		text: 'Implementing advanced image optimization techniques and performance enhancements to ensure faster load times and high-quality visuals across all devices.',
+	},
+	{
+		id: 5,
+		title: 'Server Configuration & Deployment',
+		text: 'Setting up secure and scalable servers with technologies like Apache, Nginx, Docker, and CI/CD pipelines for efficient deployment and smooth operations.',
+	},
+	{
+		id: 6,
+		title: 'Portfolio Websites',
+		text: 'Crafting visually stunning portfolio websites with interactive designs, optimized media handling, and responsive layouts to showcase creative works effectively.',
+	},
   ];
   return (
     <section
@@ -60,11 +60,7 @@ const Services = ({ extraClass }) => {
                   <h4>{service.title}</h4>
                   <p>{service.text}</p>
                 </div>
-                <Link legacyBehavior href="/#">
-                  <a className="details-btn">
-                    <i className="fas fa-arrow-right" />
-                  </a>
-                </Link>
+                
               </div>
             </div>
           ))}

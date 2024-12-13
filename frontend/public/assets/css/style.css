@@ -5788,6 +5788,13 @@ h6,
   border-color: #171717;
 }
 
+.fixed-size {
+	width: 100%;  /* Make the image take full width of the container */
+	height: 100px;  /* Set a fixed height for the box */
+	object-fit: contain;  /* Ensure the image scales properly while maintaining its aspect ratio */
+  }
+  
+
 /*******************************************************/
 /******************** ## Resume Area *******************/
 /*******************************************************/
